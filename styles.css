@@ -1,0 +1,82 @@
+/* reseteos generales */
+*{
+    box-sizing: border-box;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+/* a {
+    text-decoration: none;
+    color: #000;
+} */
+body{
+    background-color: #fafafa;
+    margin:0%;
+    height: 100%;
+    font-family: 'Varela Round', 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #24292e;
+    padding: 20px 50px;
+}
+h1{
+    font-size: 2.25em;
+}
+h2{
+    font-size: 1.75em;
+}
+h3{
+    font-size: 1.4em;
+}
+.conteiner{
+    margin: 0px 15px;
+}
+.titulo{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #9625a0;
+    margin: 20px 50px;
+}
+
+.fecha{
+    margin-bottom: 30px;
+    color: #808080;
+    font-size: 0.75em;
+}
+.navbar{
+    display: flex;
+    justify-items: left;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+nav ul li{
+    margin-left: 60px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.autoria{
+    margin-top: 25px;
+}
+.linea-footer{
+    width: 80%;
+    margin-top: 45px;
+    border: 0.5px solid #808080;
+    opacity: 0.3;
+}
+.footer{
+    overflow: hidden;
+    font-size: 0.7em;
+}
+.copyright{
+    float: right;
+}
+.links-footer{
+    position: left;
+}
