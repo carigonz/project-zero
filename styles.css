@@ -1,82 +1,127 @@
 /* reseteos generales */
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Varela+Round');
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-ul, ol {
+ul {
     padding: 0;
     margin: 0;
 }
 li {
     list-style: none;
 }
-/* a {
+html{
+    scroll-behavior: smooth;
+}
+a {
+    color: #0074c4;
     text-decoration: none;
-    color: #000;
-} */
+}
+p{
+    font-family: Courier, monospace;
+    padding: 10px 0;
+}
+a:hover{
+    color: #0098ff;
+    text-decoration: underline;
+}
 body{
-    background-color: #fafafa;
-    margin:0%;
-    height: 100%;
-    font-family: 'Varela Round', 'Courier New', Courier, monospace;
+    background: linear-gradient(
+    35deg,
+    #ffcccc,
+    #ccffff);
+    font-family: Courier, monospace;
     font-size: 18px;
     color: #24292e;
     padding: 20px 50px;
 }
-h1{
+.titulo-h1{
+    margin: 0%;
     font-size: 2.25em;
+    font-family: "indie flower";
+    font-weight: bold;
 }
-h2{
+.titulo-h2{
+    margin: 0%;
     font-size: 1.75em;
+    font-family: "varela round";
+    font-weight: bold;
 }
-h3{
+.titulo-h3{
+    margin: 0%;
     font-size: 1.4em;
+    font-family: "varela round";
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .conteiner{
-    margin: 0px 15px;
+    margin: 0 auto;
+    width: 95%;
+    overflow: hidden;
+}
+.actual {
+    color: rgb(224, 24, 24);
+    float: left;
+    margin: 12px;
 }
 .titulo{
     font-size: 70px;
     text-transform: uppercase;
     color: #9625a0;
     margin: 20px 50px;
+    font-family: "indie flower";
+    font-weight: bold;
 }
-
+.img-body{
+    width: 40vw;
+}
 .fecha{
     margin-bottom: 30px;
     color: #808080;
     font-size: 0.75em;
 }
 .navbar{
-    display: flex;
-    justify-items: left;
-    flex-wrap: wrap;
-    flex-direction: row;
+    overflow: hidden;
 }
-nav ul li{
-    margin-left: 60px;
-    display: inline-block;
+.item-nav{
+    float: left;
+    margin: 12px;
+}
+/* modificar los especificos y poner clases */
+.cuerpo-princ{
+    margin: 0 24px;
     padding: 10px 20px;
+    width: 70%;
+    float: left;
+    text-align: justify;
 }
-nav ul li:hover{
-    color: blue;
-    text-decoration: underline;
+.publi{
+    float: right;
+    width: 24%;
+    
 }
+
 .autoria{
     margin-top: 25px;
+    margin-bottom: 45px;
 }
 .linea-footer{
     width: 80%;
-    margin-top: 45px;
     border: 0.5px solid #808080;
     opacity: 0.3;
 }
 .footer{
+    margin-top: 15px;
     overflow: hidden;
     font-size: 0.7em;
 }
 .copyright{
     float: right;
+    text-align: center;
 }
 .links-footer{
-    position: left;
+    float: left;
 }
